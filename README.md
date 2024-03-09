@@ -1,5 +1,6 @@
 # GodsEye
 God's Eye可以实时翻译你看到的一切文字，识别物品类型、动物品种...
+
 God's Eye can translate all the text you see in real time, and identify object types and animal species...
 
 免责声明：
