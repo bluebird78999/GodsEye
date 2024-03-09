@@ -24,10 +24,6 @@ God's Eye是一个强大的工具，可以帮助您完成各种任务。但是�
 
 
 
-God's Eye Disclaimer:
-
-ASure, here is the translation of the text you provided to English:
-
 **God's Eye Disclaimer:**
 
 All of God's Eye's capabilities are realized by calling the large model capabilities of OpenAI or Tongyi Qianwen. Large models can also make mistakes, so the results are for reference only.
