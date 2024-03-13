@@ -1,6 +1,7 @@
+很遗憾，VisionPro当前的开发SDK不提供摄像头使用能力，我只能先写一个iOS App来实现功能，等Vision OS提供这个能力时再移植。
+关于VisionPro相机调用的官方回复：https://developer.apple.com/forums/thread/731434
 # GodsEye
 God's Eye可以实时翻译你看到的一切文字，识别物品类型、动物品种...
-
 God's Eye can translate all the text you see in real time, and identify object types and animal species...
 
 免责声明：
@@ -23,6 +24,10 @@ God's Eye的所有能力均通过调用OpenAI或通义千问的大模型能力�
 God's Eye是一个强大的工具，可以帮助您完成各种任务。但是，重要的是要负责任地使用它，并了解其局限性。
 
 
+
+God's Eye Disclaimer:
+
+ASure, here is the translation of the text you provided to English:
 
 **God's Eye Disclaimer:**
 
