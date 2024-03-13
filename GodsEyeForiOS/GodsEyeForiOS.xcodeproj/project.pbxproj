@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		3766F3F22BA1DE8D00D9DFBE /* GodsEyeForiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766F3F12BA1DE8D00D9DFBE /* GodsEyeForiOSApp.swift */; };
 		3766F3F42BA1DE8D00D9DFBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766F3F32BA1DE8D00D9DFBE /* ContentView.swift */; };
-		3766F3F62BA1DE8D00D9DFBE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766F3F52BA1DE8D00D9DFBE /* Item.swift */; };
 		3766F3F82BA1DE9000D9DFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3766F3F72BA1DE9000D9DFBE /* Assets.xcassets */; };
 		3766F3FB2BA1DE9000D9DFBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3766F3FA2BA1DE9000D9DFBE /* Preview Assets.xcassets */; };
 		3766F4052BA1DE9000D9DFBE /* GodsEyeForiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766F4042BA1DE9000D9DFBE /* GodsEyeForiOSTests.swift */; };
 		3766F40F2BA1DE9000D9DFBE /* GodsEyeForiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766F40E2BA1DE9000D9DFBE /* GodsEyeForiOSUITests.swift */; };
 		3766F4112BA1DE9000D9DFBE /* GodsEyeForiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766F4102BA1DE9000D9DFBE /* GodsEyeForiOSUITestsLaunchTests.swift */; };
+		3766F41E2BA1E63800D9DFBE /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766F41D2BA1E63800D9DFBE /* CameraController.swift */; };
+		37E44DA42BA1FB7E003DD0EC /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E44DA32BA1FB7E003DD0EC /* CameraPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		3766F3EE2BA1DE8D00D9DFBE /* GodsEyeForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodsEyeForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3766F3F12BA1DE8D00D9DFBE /* GodsEyeForiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsEyeForiOSApp.swift; sourceTree = "<group>"; };
 		3766F3F32BA1DE8D00D9DFBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3766F3F52BA1DE8D00D9DFBE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3766F3F72BA1DE9000D9DFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3766F3FA2BA1DE9000D9DFBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3766F4002BA1DE9000D9DFBE /* GodsEyeForiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodsEyeForiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +46,8 @@
 		3766F40A2BA1DE9000D9DFBE /* GodsEyeForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodsEyeForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3766F40E2BA1DE9000D9DFBE /* GodsEyeForiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsEyeForiOSUITests.swift; sourceTree = "<group>"; };
 		3766F4102BA1DE9000D9DFBE /* GodsEyeForiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodsEyeForiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3766F41D2BA1E63800D9DFBE /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		37E44DA32BA1FB7E003DD0EC /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			children = (
 				3766F3F12BA1DE8D00D9DFBE /* GodsEyeForiOSApp.swift */,
 				3766F3F32BA1DE8D00D9DFBE /* ContentView.swift */,
-				3766F3F52BA1DE8D00D9DFBE /* Item.swift */,
+				3766F41D2BA1E63800D9DFBE /* CameraController.swift */,
+				37E44DA32BA1FB7E003DD0EC /* CameraPreview.swift */,
 				3766F3F72BA1DE9000D9DFBE /* Assets.xcassets */,
 				3766F3F92BA1DE9000D9DFBE /* Preview Content */,
 			);
@@ -260,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E44DA42BA1FB7E003DD0EC /* CameraPreview.swift in Sources */,
 				3766F3F42BA1DE8D00D9DFBE /* ContentView.swift in Sources */,
-				3766F3F62BA1DE8D00D9DFBE /* Item.swift in Sources */,
 				3766F3F22BA1DE8D00D9DFBE /* GodsEyeForiOSApp.swift in Sources */,
+				3766F41E2BA1E63800D9DFBE /* CameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
